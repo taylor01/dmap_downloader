@@ -1,0 +1,8 @@
+.DS_Store
+/images/*.*
+# make sure we save the images folder, but not anything that was downloaded
+# into it.
+!images/.gitkeep
+images.old
+*.swp
+.ruby-version
